@@ -1,5 +1,7 @@
 # sql_skills · SQL 实验报告排版技能
 
+> 仓库：<https://github.com/WhatDoUMing/cs-student-report-make-skill>
+
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/)
 [![test](https://img.shields.io/badge/tests-smoke%20passed-brightgreen.svg)](tests/test_demo.py)
@@ -50,10 +52,11 @@
 
 ```bash
 # Claude Code
-git clone <本仓库地址> && cp -r <本仓库>/skills/sql_report_make ~/.claude/skills/
+git clone https://github.com/WhatDoUMing/cs-student-report-make-skill.git
+cp -r cs-student-report-make-skill/skills/sql_report_make ~/.claude/skills/
 
 # DSH（Windows 下为 %USERPROFILE%\.dsh\skills）
-cp -r <本仓库>/skills/sql_report_make ~/.dsh/skills/
+cp -r cs-student-report-make-skill/skills/sql_report_make ~/.dsh/skills/
 ```
 
 Windows PowerShell：
