@@ -20,12 +20,12 @@ metadata: {"emoji":"🗄️","os":["win32","darwin","linux"],"requires":{"bins":
 
 ```
 <工作区>\
-├─ agent.md                         项目约定（可选）
-├─ sql_report_make\                 本技能（装好后长期不变）
-├─ 1_command.docx                   实验一指导书（含报告表母本，只取页面设置与样式）
-├─ 2_command.docx                   实验二指导书
-├─ 1\                              实验一产物：SQL\、实验报告.md、实验报告.docx、config-exp1.json
-└─ 2\                              实验二产物：SQL\、实验报告.md、实验报告.docx、config-exp2.json
+├─ agent.md          项目约定（可选）
+├─ sql_report_make\  本技能（装好后长期不变）
+├─ 1_command.docx    实验一指导书（含报告表母本，只取页面设置与样式）
+├─ 2_command.docx    实验二指导书
+├─ 1\                实验一产物：SQL\、实验报告.md、实验报告.docx、config-exp1.json
+└─ 2\                实验二产物：SQL\、实验报告.md、实验报告.docx、config-exp2.json
 ```
 
 ## 设计取舍：为什么不「往母本表格里填空」
