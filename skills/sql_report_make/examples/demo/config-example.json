@@ -1,0 +1,34 @@
+{
+  "_说明": "示例配置：template/markdown/out 的相对路径按本文件所在目录解析；sql_files 的相对路径按 markdown 所在目录解析；也可以用绝对路径。复制到你的实验序号文件夹后，把 template 指向 <序号>_command.docx 即可。",
+  "template": "template.docx",
+  "markdown": "实验报告.md",
+  "out": "out/实验报告.docx",
+  "fonts": {"body": "宋体", "heading": "黑体", "code": "Consolas"},
+  "sizes": {"body_pt": 12, "code_pt": 9, "table_pt": 10.5},
+  "toc": {"enabled": false},
+  "space_fix": true,
+  "label_map": {
+    "一、实验目的": "1．实验目的：",
+    "二、实验内容和要求": "实验内容和要求：",
+    "三、实验重点和难点": "实验重点和难点：",
+    "四、实验程序": "实验程序：",
+    "五、实验总结": "实验总结：",
+    "附：实验小结": "实验小结："
+  },
+  "highlight": {
+    "--[^\\n]*": "000000",
+    "'(?:[^'\\\\]|\\\\.)*'": "000000",
+    "\"(?:[^\"\\\\]|\\\\.)*\"": "000000",
+    "`[^`]*`": "000000",
+    "\\b(?:CREATE|DATABASE|TABLE|ALTER|DROP|INDEX|UNIQUE|INSERT|INTO|VALUES|SELECT|FROM|WHERE|DELETE|TRUNCATE|SHOW|DESC|DESCRIBE|USE|PRIMARY|KEY|FOREIGN|REFERENCES|CONSTRAINT|NOT|NULL|DEFAULT|AUTO_INCREMENT|ENGINE|CHARSET|COLLATE|COMMENT|IF|EXISTS|ON|UPDATE|CASCADE|RESTRICT|ASC|AND|OR|CHAR|VARCHAR|INT|SMALLINT|DECIMAL|FLOAT|DATE|TEXT|BIGINT|INFORMATION_SCHEMA)\\b": "000000"
+  },
+  "fence_to_sql": {
+    "0": "01_create_database.sql",
+    "1": "02_create_tables.sql"
+  },
+  "sql_files": {
+    "01_create_database.sql": "SQL\\01_create_database.sql",
+    "02_create_tables.sql": "SQL\\02_create_tables.sql"
+  },
+  "summary_table": {"enabled": false}
+}

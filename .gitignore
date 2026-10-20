@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# 生成物与临时目录
+out/
+~$*
+*.tmp
+_report_tmp/
